@@ -20,7 +20,7 @@ Steps:
    - The review instructions (from your loaded skill context above)
    - A "## Task Brief" section with the Task Brief contents
    - A "## Diff" section with the diff
-4. Run: `cat <reviews-dir>/codex-prompt.md | codex exec -o <reviews-dir>/codex-output.md -`
+4. Run: `cat <reviews-dir>/codex-prompt.md | codex exec --skip-git-repo-check -o <reviews-dir>/codex-output.md -`
 5. Read `<reviews-dir>/codex-output.md`.
 6. Return the contents verbatim — do not interpret, summarize, or add your own opinions.
 
