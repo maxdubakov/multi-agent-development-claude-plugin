@@ -3,6 +3,15 @@
   "description": "Multi-agent coding team: architect, developer, reviewers (Claude + Codex), and repo scout",
   "version": "0.1.0",
   "author": {
-    "name": "Max"
-  }
+    "name": "Max Dubakov"
+  },
+  "repository": "https://github.com/maxdubakov/multi-agent-development-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "multi-agent",
+    "code-review",
+    "development",
+    "architect",
+    "codex"
+  ]
 }

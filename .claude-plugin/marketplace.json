@@ -1,0 +1,17 @@
+{
+  "name": "multi-agent-development",
+  "metadata": {
+    "description": "Multi-agent development plugins for Claude Code"
+  },
+  "owner": {
+    "name": "Max Dubakov"
+  },
+  "plugins": [
+    {
+      "name": "coding-team",
+      "source": "./",
+      "description": "Multi-agent coding team: architect, developer, reviewers (Claude + Codex), and repo scout",
+      "version": "0.1.0"
+    }
+  ]
+}
