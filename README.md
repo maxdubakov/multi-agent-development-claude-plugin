@@ -43,6 +43,16 @@ The plugin sets `architect` as the default agent. When you describe what you wan
 | `codex-reviewer` | Haiku (proxy) | Relays review to OpenAI Codex CLI and returns its output |
 | `repo-scout` | Sonnet | Scans the repo and maintains `ARCHITECTURE.md` |
 
+## Permissions
+
+Plugins cannot ship pre-configured permissions, so you'll need to allow these yourself on first use. The agents need:
+
+- **Bash commands**: `git diff`, `git log`, `git status`, `git rev-parse`, and your project's lint/test/build commands
+- **Read/Write/Edit**: for modifying source files and writing Task Briefs
+- **Glob/Grep**: for codebase exploration
+
+The easiest approach: when Claude asks for permission during the first run, allow and choose "always allow" for the tools you're comfortable with.
+
 ## License
 
 MIT
