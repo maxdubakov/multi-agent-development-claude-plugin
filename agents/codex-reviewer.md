@@ -1,6 +1,6 @@
 ---
 name: codex-reviewer
-description: Code reviewer powered by OpenAI Codex. Use after @developer completes a task, in parallel with @code-reviewer.
+description: Code reviewer powered by OpenAI Codex. Use after @coding-team:developer completes a task, in parallel with @coding-team:code-reviewer.
 model: haiku
 tools: Bash, Read, Write
 skills:
