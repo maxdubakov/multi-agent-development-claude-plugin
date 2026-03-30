@@ -12,9 +12,13 @@ A Claude Code plugin that runs a multi-agent development team: an architect plan
 ## Install
 
 ```bash
+claude
 /plugin marketplace add maxdubakov/multi-agent-development-claude-plugin
 /plugin install coding-team@multi-agent-development
+/reload-plugins
 ```
+
+Exit current `claude` session. Plugin should be active on the next sessin
 
 ## Permissions
 
