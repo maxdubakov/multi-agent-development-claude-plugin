@@ -11,7 +11,7 @@
       "name": "coding-team",
       "source": "./",
       "description": "Multi-agent coding team: architect, developer, reviewers (Claude + Codex), and repo scout",
-      "version": "0.1.3"
+      "version": "0.1.4"
     }
   ]
 }
