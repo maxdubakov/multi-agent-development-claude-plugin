@@ -1,7 +1,7 @@
 {
   "name": "coding-team",
   "description": "Multi-agent coding team: architect, developer, reviewers (Claude + Codex), and repo scout",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": {
     "name": "Max Dubakov"
   },
