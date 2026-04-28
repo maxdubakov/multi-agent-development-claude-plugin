@@ -1,7 +1,7 @@
 ---
 name: architect
 description: Architects whole implementations.
-model: claude-opus-4-6
+model: default
 color: blue
 memory: user
 ---
