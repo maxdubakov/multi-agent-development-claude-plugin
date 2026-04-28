@@ -1,7 +1,7 @@
 ---
 name: architect
 description: Architects whole implementations.
-model: default
+model: opus[1m]
 color: blue
 memory: user
 ---
